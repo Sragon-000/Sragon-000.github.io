@@ -279,3 +279,9 @@ Node 211개, Chromium 전체 21개, 형식·린트·타입과 root/`/Project_IO/
 공개 갤러리의 오로라 배경과 빈 전시장, 편집기 직접 접근 및 새로고침 후 폼 로딩을 실제 브라우저에서 확인했다. 실제 사용자 입력은 추가하거나 저장하지 않았다. 공개 projects.json은 빈 배열이며 manifest와 JPEG 공유 카드가 HTTPS에서 응답한다. 공유 JPEG는 실제 디코딩한 결과 1200×630이고 HTML canonical·og:url·og:image는 공개 주소를 가리킨다. 화면은 /private/tmp/io-pages-live-gallery.png에 보관했다. 개인 초안·백업 ZIP과 검증용 자료는 배포하지 않았다.
 
 현재 공개 작품이 없어 실제 작품 상세·프로젝트 영상·실제 구조의 인터넷 관람을 검증 완료한 것으로 보지 않는다. 다른 계정의 독립 복제 배포와 실제 메신저 카드, 휴대폰 GPU/Safari/Firefox 검증은 남아 있다. Actions의 Node 20 런타임 강제 전환 및 Ubuntu 이미지 변경 경고는 있었으나 실행은 성공했다. 후속 문서 전용 커밋은 중복 CI를 생략하며 배포 실행 소스는 바꾸지 않는다.
+
+## 실제 세 프로젝트 기본 정보 공개 — 2026-10-19
+
+사용자가 요청한 SpaceShipThree(우주 탐험 게임·1인 개발), 난장판!(모바일 AR 디펜스 게임·팀장), Eternal_Steam(디펜스 게임·팀장)을 이 순서로 published 등록했다. SpaceShipThree 팀 규모 1명 외에 기간·플랫폼 세부·엔진/기술·팀 규모·미디어·세부 기여·그래프는 추정하지 않았다. 기존 프로필과 light 테마를 유지했다. 공개 ZIP 생성·검사·import와 workspace 백업 재가져오기를 확인했으며 개인 파일과 이전 공개 콘텐츠 백업은 Git에서 제외했다.
+
+[Actions 39198863502](https://github.com/Sragon-000/Sragon-000.github.io/actions/runs/39198863502)는 소스 802a893의 check·Node 211개·Chromium 21개·실제 작품 3개 빌드·dist 28파일·초기 JS 385.2KiB/gzip 93.5KiB와 deploy를 통과했다. HTTPS projects.json의 세 작품과 published 상태, 갤러리 03 WORKS·상세 세 개의 역할/미등록 자료 안내와 이전·다음 이동, 3D 전시실의 세 작품 목록을 실제 브라우저에서 확인했다. 세 share HTML의 og:title·og:url도 실제 주소에서 확인했다. 기존 브라우저 탭의 이동이 지연돼 새 탭에서 확인했으며 사용자 로컬 초안은 변경하지 않았다. 화면 증거: /private/tmp/io-three-projects-live-gallery.png. 실제 미디어·기여 상세와 그래프는 아직 미등록이며 실제 메신저 카드 검증은 포함하지 않는다.

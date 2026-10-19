@@ -1,6 +1,6 @@
 # IO — 게임공학 프로젝트 전시장
 
-[공개 전시장](https://sragon-000.github.io/) · [편집 화면](https://sragon-000.github.io/#/studio/profile) · [배포 실행](https://github.com/Sragon-000/Sragon-000.github.io/actions/runs/39197659967)
+[공개 전시장](https://sragon-000.github.io/) · [편집 화면](https://sragon-000.github.io/#/studio/profile) · [배포 실행](https://github.com/Sragon-000/Sragon-000.github.io/actions/runs/39198863502)
 
 현재 공개 전시장에는 **SpaceShipThree**(우주 탐험 게임·1인 개발), **난장판!**(모바일 AR 디펜스 게임·팀장), **Eternal_Steam**(디펜스 게임·팀장)의 기본 정보를 등록했습니다. 실제 이미지·영상·개발 기간·기술·아키텍처는 자료를 받은 뒤 보완합니다. 친구가 이 저장소를 복제할 경우 이 공개 콘텐츠도 함께 복제되므로 자신의 자료로 교체해야 합니다.
 

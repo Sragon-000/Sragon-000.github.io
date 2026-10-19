@@ -103,7 +103,7 @@ Actions의 **Validate and deploy portfolio**에서 검사·빌드·deploy 결과
 | HTML은 열리는데 앱·이미지가 404 | 수동 base 대신 Pages 메타데이터 사용 여부, build 로그의 경로, 이전 파일과 새 파일 혼합 여부 |
 | 새 이름을 입력해도 공개 사이트가 그대로 | 초안 저장과 실제 배포는 별도이며 공개 ZIP 반영·push·배포까지 진행해야 함 |
 
-2026-10-19 [Sragon-000.github.io](https://sragon-000.github.io/)에서 GitHub Actions 검사·빌드·배포와 공개 갤러리·편집 화면 직접 접근 및 새로고침을 확인했습니다. 현재 공개 작품은 0개입니다. 다른 계정의 독립 배포와 실제 프로젝트 영상·구조는 별도 확인 대상입니다.
+2026-10-19 [Sragon-000.github.io](https://sragon-000.github.io/)에서 GitHub Actions 검사·빌드·배포와 공개 갤러리·편집 화면 직접 접근 및 새로고침을 확인했습니다. 첫 배포 당시 공개 작품은 0개였으며, 같은 날 SpaceShipThree·난장판!·Eternal_Steam의 기본 정보를 추가해 3개로 갱신했습니다. 다른 계정의 독립 배포와 실제 프로젝트 영상·구조는 별도 확인 대상입니다.
 
 
 ## 공유 링크 미리보기
