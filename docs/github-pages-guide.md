@@ -103,7 +103,7 @@ Actions의 **Validate and deploy portfolio**에서 검사·빌드·deploy 결과
 | HTML은 열리는데 앱·이미지가 404 | 수동 base 대신 Pages 메타데이터 사용 여부, build 로그의 경로, 이전 파일과 새 파일 혼합 여부 |
 | 새 이름을 입력해도 공개 사이트가 그대로 | 초안 저장과 실제 배포는 별도이며 공개 ZIP 반영·push·배포까지 진행해야 함 |
 
-현재 구현은 로컬 검사와 두 base의 정적 관람을 검증했습니다. 실제 GitHub Actions 실행과 다른 계정의 독립 배포, 실제 프로젝트 영상·구조는 해당 저장소와 자료를 연결한 뒤 확인합니다.
+2026-10-19 [Sragon-000.github.io](https://sragon-000.github.io/)에서 GitHub Actions 검사·빌드·배포와 공개 갤러리·편집 화면 직접 접근 및 새로고침을 확인했습니다. 현재 공개 작품은 0개입니다. 다른 계정의 독립 배포와 실제 프로젝트 영상·구조는 별도 확인 대상입니다.
 
 
 ## 공유 링크 미리보기
@@ -114,6 +114,6 @@ Actions의 **Validate and deploy portfolio**에서 검사·빌드·deploy 결과
 
 기본 Pages 워크플로는 configure-pages의 실제 `base_url`을 PAGES_URL로 넘긴다. 따라서 계정이나 저장소 이름을 코드에서 추정하지 않으며 사용자 지정 도메인도 Pages 설정 주소를 따른다. 로컬에서는 PAGES_BASE와 같은 경로의 실제 HTTPS 주소를 PAGES_URL로 지정할 수 있다. 두 경로가 다르거나 인증정보·쿼리·해시가 포함되면 빌드가 실패한다. URL이 없으면 잘못된 canonical 주소를 만들지 않고 생략한다. [configure-pages 출력](https://github.com/actions/configure-pages/blob/main/action.yml)
 
-공유 이미지는 JPEG 1200×630이며 Open Graph의 제목·설명·이미지·URL과 이미지 타입/크기/대체 설명을 포함한다. [Open Graph protocol](https://ogp.me/) 실제 카카오톡·Discord·SNS 카드의 모양과 갱신 시점은 각 서비스의 캐시에 영향을 받는다. 공개 배포 후 실제 주소로 확인하고, 예전 정보가 남으면 서비스의 갱신 도구나 캐시 만료 후 다시 확인한다. 현재 저장소 주소가 제공되지 않았으므로 실제 메신저 카드 표시를 검증 완료했다고 판단하지 않는다.
+공유 이미지는 JPEG 1200×630이며 Open Graph의 제목·설명·이미지·URL과 이미지 타입/크기/대체 설명을 포함한다. [Open Graph protocol](https://ogp.me/) 실제 카카오톡·Discord·SNS 카드의 모양과 갱신 시점은 각 서비스의 캐시에 영향을 받는다. 공개 배포 후 실제 주소로 확인하고, 예전 정보가 남으면 서비스의 갱신 도구나 캐시 만료 후 다시 확인한다. 실제 공개 HTML의 Open Graph·canonical 주소와 JPEG 1200×630 카드 응답은 확인했다. 카카오톡·Discord 등 실제 메신저의 카드 표시는 아직 확인하지 않았다.
 
 Linux 로컬 빌드에서 한국어 글자가 네모로 나오면 Noto CJK 글꼴을 설치한다. Ubuntu CI는 `fonts-noto-cjk`를 설치하며 macOS에서는 시스템 한국어 글꼴을 사용한다. 공개 카드와 공유 HTML은 dist에 생성하고 site-content의 원본 파일/manifest 및 백업에는 추가하지 않는다.

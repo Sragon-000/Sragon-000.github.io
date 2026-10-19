@@ -271,3 +271,11 @@ Node 211개, Chromium 전체 21개, 형식·린트·타입과 root/`/Project_IO/
 2026-10-14 후속 가독성 적용: CSS의 작은 기능 문구·도움말 14px, 항목명 15px/600, 입력 16px와 불투명한 글자 색을 실제 브라우저 computed style로 확인했다. 약 95% 흰 캡션의 최저 합성 배경을 가정한 대비 계산은 제목 13.85:1/보조 6.69:1이며 전체 앱 접근성 적합성을 뜻하지 않는다. 360px에서 긴 작품명의 중간 줄바꿈을 발견해 420px 이하 세로 카드, 1000px 이하 한 열을 적용했다. 재캡처와 DOM에서 360px/720px 가로 넘침 없음과 작품명 한 줄을 확인했다.
 
 브라우저 21개 통과 후 마지막 반응형 수정에는 모션/입력·미리보기·동작 줄이기/360px 3개를 다시 통과했다. 형식·린트·타입과 root/subpath build·dist·예산을 재검사했다. JS 수치와 공개 작품 0개는 유지한다. CSS/문서만 변경했으므로 Node 검사는 이번에 재실행하지 않았다. 도구의 실제 확대 동작이 확인되지 않아 200% 텍스트 확대 통과라고 기록하지 않는다. [비교 증거와 범위](../design-qa.md)
+
+## 첫 GitHub Pages 공개 검증 — 2026-10-19
+
+[저장소](https://github.com/Sragon-000/Sragon-000.github.io)와 [공개 주소](https://sragon-000.github.io/)를 연결했다. 배포 소스는 d39706a이며 [실제 Actions 실행](https://github.com/Sragon-000/Sragon-000.github.io/actions/runs/39197659967)의 check·Node 211개·Chromium 21개·빌드·dist·초기 JS 예산·deploy가 성공했다. Pages build_type은 workflow, HTTPS는 활성 상태다. 로컬에서도 동일 검사와 root/subpath 빌드를 먼저 통과했다.
+
+공개 갤러리의 오로라 배경과 빈 전시장, 편집기 직접 접근 및 새로고침 후 폼 로딩을 실제 브라우저에서 확인했다. 실제 사용자 입력은 추가하거나 저장하지 않았다. 공개 projects.json은 빈 배열이며 manifest와 JPEG 공유 카드가 HTTPS에서 응답한다. 공유 JPEG는 실제 디코딩한 결과 1200×630이고 HTML canonical·og:url·og:image는 공개 주소를 가리킨다. 화면은 /private/tmp/io-pages-live-gallery.png에 보관했다. 개인 초안·백업 ZIP과 검증용 자료는 배포하지 않았다.
+
+현재 공개 작품이 없어 실제 작품 상세·프로젝트 영상·실제 구조의 인터넷 관람을 검증 완료한 것으로 보지 않는다. 다른 계정의 독립 복제 배포와 실제 메신저 카드, 휴대폰 GPU/Safari/Firefox 검증은 남아 있다. Actions의 Node 20 런타임 강제 전환 및 Ubuntu 이미지 변경 경고는 있었으나 실행은 성공했다. 후속 문서 전용 커밋은 중복 CI를 생략하며 배포 실행 소스는 바꾸지 않는다.
