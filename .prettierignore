@@ -1,0 +1,13 @@
+node_modules/
+dist/
+public/
+vendor/
+legacy/
+site-content/
+spec/examples/
+playwright-report/
+test-results/
+docs/
+spec/verification.md
+README.md
+package-lock.json

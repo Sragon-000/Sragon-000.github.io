@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.env*
+!.env.example
+coverage/
+.site-content-stage-*/
+.site-content-backup-*/
+*.zip
+playwright-report/
+test-results/
+.portfolio-drafts/

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "public",
+  "site": {
+    "profile": {
+      "displayName": "제작자",
+      "bio": "",
+      "avatarAssetId": null,
+      "interests": [],
+      "links": []
+    },
+    "exhibition": {
+      "title": "나의 프로젝트 전시장",
+      "description": "",
+      "defaultView": "gallery",
+      "projectOrder": []
+    },
+    "theme": {
+      "preset": "light",
+      "logoAssetId": null,
+      "faviconAssetId": null
+    }
+  }
+}

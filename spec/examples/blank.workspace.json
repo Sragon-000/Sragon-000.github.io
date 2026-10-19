@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "workspace",
+  "site": {
+    "profile": {
+      "displayName": "",
+      "bio": "",
+      "avatarAssetId": null,
+      "interests": [],
+      "links": []
+    },
+    "exhibition": {
+      "title": "",
+      "description": "",
+      "defaultView": "gallery",
+      "projectOrder": []
+    },
+    "theme": {
+      "preset": "digital",
+      "logoAssetId": null,
+      "faviconAssetId": null
+    }
+  },
+  "projects": [],
+  "architectures": [],
+  "assets": []
+}

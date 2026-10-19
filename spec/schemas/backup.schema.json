@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "backup 1.0.0",
+  "type": "object",
+  "properties": {
+    "backupVersion": {
+      "const": "1.0.0"
+    },
+    "savedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "Z$"
+    },
+    "editorState": {
+      "type": "object",
+      "properties": {
+        "screen": {
+          "enum": ["profile", "projects", "presentation", "export"]
+        },
+        "projectId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 64,
+              "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": ["screen", "projectId"],
+      "additionalProperties": false
+    },
+    "pendingInputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "enum": ["site", "project", "graph", "group", "node", "edge"]
+          },
+          "projectId": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 64,
+                "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "entityId": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 64,
+                "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "path": {
+            "type": "string",
+            "maxLength": 256,
+            "pattern": "^/(?:[A-Za-z][A-Za-z0-9]*(?:/[A-Za-z0-9-]+)*)$"
+          },
+          "rawValue": {
+            "type": "string",
+            "maxLength": 20000
+          }
+        },
+        "required": ["scope", "projectId", "entityId", "path", "rawValue"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["backupVersion", "savedAt", "editorState", "pendingInputs"],
+  "additionalProperties": false
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "workspace",
+  "site": {
+    "profile": {
+      "displayName": "",
+      "bio": "",
+      "avatarAssetId": null,
+      "interests": [],
+      "links": []
+    },
+    "exhibition": {
+      "title": "IO",
+      "description": "",
+      "defaultView": "gallery",
+      "projectOrder": [
+        "spaceshipthree",
+        "nanjangpan",
+        "eternal-steam"
+      ]
+    },
+    "theme": {
+      "preset": "digital",
+      "logoAssetId": null,
+      "faviconAssetId": null
+    }
+  },
+  "projects": [
+    {
+      "id": "spaceshipthree",
+      "slug": "spaceshipthree",
+      "title": "SpaceShipThree",
+      "summary": "우주 탐험 게임",
+      "genre": "우주 탐험 게임",
+      "status": "draft",
+      "role": "1인 개발",
+      "period": {
+        "start": null,
+        "end": null,
+        "ongoing": false
+      },
+      "platforms": [],
+      "technologies": [],
+      "teamSize": 1,
+      "media": {
+        "coverAssetId": null,
+        "screenshotAssetIds": [],
+        "video": null
+      },
+      "contribution": {
+        "responsibilities": [],
+        "leadership": []
+      },
+      "overview": "",
+      "caseStudies": [],
+      "outcome": "",
+      "reflection": "",
+      "links": []
+    },
+    {
+      "id": "nanjangpan",
+      "slug": "nanjangpan",
+      "title": "난장판!",
+      "summary": "모바일 AR 디펜스 게임",
+      "genre": "모바일 AR 디펜스 게임",
+      "status": "draft",
+      "role": "팀장",
+      "period": {
+        "start": null,
+        "end": null,
+        "ongoing": false
+      },
+      "platforms": [],
+      "technologies": [],
+      "teamSize": null,
+      "media": {
+        "coverAssetId": null,
+        "screenshotAssetIds": [],
+        "video": null
+      },
+      "contribution": {
+        "responsibilities": [],
+        "leadership": []
+      },
+      "overview": "",
+      "caseStudies": [],
+      "outcome": "",
+      "reflection": "",
+      "links": []
+    },
+    {
+      "id": "eternal-steam",
+      "slug": "eternal-steam",
+      "title": "Eternal_Steam",
+      "summary": "디펜스 게임",
+      "genre": "디펜스 게임",
+      "status": "draft",
+      "role": "팀장",
+      "period": {
+        "start": null,
+        "end": null,
+        "ongoing": false
+      },
+      "platforms": [],
+      "technologies": [],
+      "teamSize": null,
+      "media": {
+        "coverAssetId": null,
+        "screenshotAssetIds": [],
+        "video": null
+      },
+      "contribution": {
+        "responsibilities": [],
+        "leadership": []
+      },
+      "overview": "",
+      "caseStudies": [],
+      "outcome": "",
+      "reflection": "",
+      "links": []
+    }
+  ],
+  "architectures": [],
+  "assets": []
+}

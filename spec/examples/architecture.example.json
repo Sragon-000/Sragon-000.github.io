@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "example",
+  "site": {
+    "profile": {
+      "displayName": "기획 예시",
+      "bio": "",
+      "avatarAssetId": null,
+      "interests": [],
+      "links": []
+    },
+    "exhibition": {
+      "title": "구조 입력 예시",
+      "description": "",
+      "defaultView": "gallery",
+      "projectOrder": [
+        "example-project"
+      ]
+    },
+    "theme": {
+      "preset": "digital",
+      "logoAssetId": null,
+      "faviconAssetId": null
+    }
+  },
+  "projects": [
+    {
+      "id": "example-project",
+      "slug": "example-project",
+      "title": "구조 예시 프로젝트",
+      "summary": "기획 검토용",
+      "genre": "기획 검토용",
+      "status": "draft",
+      "role": "예시",
+      "period": {
+        "start": null,
+        "end": null,
+        "ongoing": false
+      },
+      "platforms": [],
+      "technologies": [],
+      "teamSize": null,
+      "media": {
+        "coverAssetId": null,
+        "screenshotAssetIds": [],
+        "video": null
+      },
+      "contribution": {
+        "responsibilities": [],
+        "leadership": []
+      },
+      "overview": "",
+      "caseStudies": [],
+      "outcome": "",
+      "reflection": "",
+      "links": []
+    }
+  ],
+  "architectures": [
+    {
+      "projectId": "example-project",
+      "verified": false,
+      "revision": {
+        "label": null,
+        "reviewedAt": null,
+        "sources": []
+      },
+      "groups": [
+        {
+          "id": "group-a",
+          "label": "예시 그룹 A",
+          "layer": 0
+        },
+        {
+          "id": "group-b",
+          "label": "예시 그룹 B",
+          "layer": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": "system-a",
+          "label": "시스템 A",
+          "groupId": "group-a",
+          "parentId": null,
+          "responsibility": "실제 작품의 구조가 아닌 입력 형식 예시입니다.",
+          "inputs": [],
+          "outputs": [],
+          "decisions": "",
+          "contributionType": "unknown",
+          "contributionNote": "",
+          "relatedCaseIds": [],
+          "codeRefs": []
+        },
+        {
+          "id": "system-b",
+          "label": "시스템 B",
+          "groupId": "group-b",
+          "parentId": null,
+          "responsibility": "실제 작품의 구조가 아닌 입력 형식 예시입니다.",
+          "inputs": [],
+          "outputs": [],
+          "decisions": "",
+          "contributionType": "unknown",
+          "contributionNote": "",
+          "relatedCaseIds": [],
+          "codeRefs": []
+        },
+        {
+          "id": "system-c",
+          "label": "시스템 C",
+          "groupId": "group-b",
+          "parentId": null,
+          "responsibility": "실제 작품의 구조가 아닌 입력 형식 예시입니다.",
+          "inputs": [],
+          "outputs": [],
+          "decisions": "",
+          "contributionType": "unknown",
+          "contributionNote": "",
+          "relatedCaseIds": [],
+          "codeRefs": []
+        }
+      ],
+      "edges": [
+        {
+          "id": "edge-a-b",
+          "source": "system-a",
+          "target": "system-b",
+          "type": "call",
+          "label": "호출 예시",
+          "description": "실제 호출 관계가 아닌 형식 예시입니다."
+        },
+        {
+          "id": "edge-b-c",
+          "source": "system-b",
+          "target": "system-c",
+          "type": "data",
+          "label": "데이터 전달 예시",
+          "description": "실제 전달 관계가 아닌 형식 예시입니다."
+        }
+      ]
+    }
+  ],
+  "assets": []
+}

@@ -1,0 +1,493 @@
+{
+  "date": "2026-10-10",
+  "scope": "synthetic data only, isolated Chromium production build; no user drafts/public content modified",
+  "before": {
+    "at": "2026-10-10T12:06:15.728Z",
+    "environment": {
+      "browser": "156.0.8078.4",
+      "gpu": "SwiftShader",
+      "viewport": "1280×900",
+      "iterations": 3,
+      "throttling": false
+    },
+    "samples": [
+      {
+        "graph50": {
+          "editorMountMs": 37.89999997615814,
+          "editorOptions": 18500,
+          "nodes": 50,
+          "edges": 150,
+          "layoutMedianMs": 0.10000002384185791,
+          "mountMs": 8.799999952316284,
+          "selectionMedianMs": 0.6000000238418579,
+          "panMedianMs": 0.5,
+          "sceneMs": 34.09999996423721,
+          "firstDrawMs": 456.19999998807907,
+          "texturePixels": 19955712,
+          "textureRgbaBytes": 79822848,
+          "renderer": {
+            "calls": 606,
+            "textures": 203,
+            "geometries": 203
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "graph200": {
+          "editorMountMs": 398.69999998807907,
+          "editorOptions": 285400,
+          "nodes": 200,
+          "edges": 600,
+          "layoutMedianMs": 0.20000004768371582,
+          "mountMs": 6.199999988079071,
+          "selectionMedianMs": 2,
+          "panMedianMs": 1.800000011920929,
+          "sceneMs": 37.89999997615814,
+          "firstDrawMs": 289,
+          "texturePixels": 79626240,
+          "textureRgbaBytes": 318504960,
+          "renderer": {
+            "calls": 2420,
+            "textures": 810,
+            "geometries": 803
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "imagePng": {
+          "ms": 6.399999976158142,
+          "maxTimerGapMs": 17.099999964237213
+        },
+        "imagePhoto": {
+          "ms": 69,
+          "maxTimerGapMs": 17.099999964237213
+        },
+        "imagePhotoRepeat": {
+          "ms": 410.39999997615814,
+          "maxTimerGapMs": 17.100000023841858
+        },
+        "zipRead": {
+          "ms": 103.19999998807907,
+          "maxTimerGapMs": 88.30000001192093
+        },
+        "zipExport": {
+          "ms": 164.9000000357628,
+          "maxTimerGapMs": 68.30000001192093
+        },
+        "fixture": {
+          "pngBytes": 3152409,
+          "pngPixels": 1048576,
+          "photoBytes": 5774432,
+          "photoPixels": 16777216,
+          "zipBytes": 25221600,
+          "assets": 8
+        }
+      },
+      {
+        "graph50": {
+          "editorMountMs": 32,
+          "editorOptions": 18500,
+          "nodes": 50,
+          "edges": 150,
+          "layoutMedianMs": 0.09999996423721313,
+          "mountMs": 1.9000000357627869,
+          "selectionMedianMs": 0.5,
+          "panMedianMs": 0.40000003576278687,
+          "sceneMs": 7.899999976158142,
+          "firstDrawMs": 284.9000000357628,
+          "texturePixels": 19955712,
+          "textureRgbaBytes": 79822848,
+          "renderer": {
+            "calls": 606,
+            "textures": 203,
+            "geometries": 203
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "graph200": {
+          "editorMountMs": 374.39999997615814,
+          "editorOptions": 285400,
+          "nodes": 200,
+          "edges": 600,
+          "layoutMedianMs": 0.19999998807907104,
+          "mountMs": 4.800000011920929,
+          "selectionMedianMs": 1.899999976158142,
+          "panMedianMs": 1.899999976158142,
+          "sceneMs": 30.80000001192093,
+          "firstDrawMs": 283.60000002384186,
+          "texturePixels": 79626240,
+          "textureRgbaBytes": 318504960,
+          "renderer": {
+            "calls": 2420,
+            "textures": 810,
+            "geometries": 803
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "imagePng": {
+          "ms": 2.100000023841858,
+          "maxTimerGapMs": 17
+        },
+        "imagePhoto": {
+          "ms": 65.29999995231628,
+          "maxTimerGapMs": 17
+        },
+        "imagePhotoRepeat": {
+          "ms": 406.2000000476837,
+          "maxTimerGapMs": 17.69999998807907
+        },
+        "zipRead": {
+          "ms": 78.09999996423721,
+          "maxTimerGapMs": 65.39999997615814
+        },
+        "zipExport": {
+          "ms": 153.30000001192093,
+          "maxTimerGapMs": 62.89999997615814
+        },
+        "fixture": {
+          "pngBytes": 3152409,
+          "pngPixels": 1048576,
+          "photoBytes": 5774432,
+          "photoPixels": 16777216,
+          "zipBytes": 25221600,
+          "assets": 8
+        }
+      },
+      {
+        "graph50": {
+          "editorMountMs": 28.5,
+          "editorOptions": 18500,
+          "nodes": 50,
+          "edges": 150,
+          "layoutMedianMs": 0.09999996423721313,
+          "mountMs": 1.5999999642372131,
+          "selectionMedianMs": 0.5,
+          "panMedianMs": 0.5,
+          "sceneMs": 8.200000047683716,
+          "firstDrawMs": 279.5,
+          "texturePixels": 19955712,
+          "textureRgbaBytes": 79822848,
+          "renderer": {
+            "calls": 606,
+            "textures": 203,
+            "geometries": 203
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "graph200": {
+          "editorMountMs": 474.80000001192093,
+          "editorOptions": 285400,
+          "nodes": 200,
+          "edges": 600,
+          "layoutMedianMs": 0.19999998807907104,
+          "mountMs": 4.899999976158142,
+          "selectionMedianMs": 1.7999999523162842,
+          "panMedianMs": 1.699999988079071,
+          "sceneMs": 30.80000001192093,
+          "firstDrawMs": 277.69999998807907,
+          "texturePixels": 79626240,
+          "textureRgbaBytes": 318504960,
+          "renderer": {
+            "calls": 2420,
+            "textures": 810,
+            "geometries": 803
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "imagePng": {
+          "ms": 1.899999976158142,
+          "maxTimerGapMs": 17
+        },
+        "imagePhoto": {
+          "ms": 64.09999996423721,
+          "maxTimerGapMs": 17.099999964237213
+        },
+        "imagePhotoRepeat": {
+          "ms": 404.7999999523163,
+          "maxTimerGapMs": 17.80000001192093
+        },
+        "zipRead": {
+          "ms": 77.30000001192093,
+          "maxTimerGapMs": 63.89999997615814
+        },
+        "zipExport": {
+          "ms": 150.5,
+          "maxTimerGapMs": 57.80000001192093
+        },
+        "fixture": {
+          "pngBytes": 3152409,
+          "pngPixels": 1048576,
+          "photoBytes": 5774432,
+          "photoPixels": 16777216,
+          "zipBytes": 25221600,
+          "assets": 8
+        }
+      }
+    ]
+  },
+  "after": {
+    "at": "2026-10-10T12:07:02.293Z",
+    "environment": {
+      "browser": "156.0.8078.4",
+      "gpu": "SwiftShader",
+      "viewport": "1280×900",
+      "iterations": 3,
+      "throttling": false
+    },
+    "samples": [
+      {
+        "graph50": {
+          "editorMountMs": 3.800000011920929,
+          "editorOptions": 0,
+          "nodes": 50,
+          "edges": 150,
+          "layoutMedianMs": 0.10000002384185791,
+          "mountMs": 6.300000011920929,
+          "selectionMedianMs": 0.5,
+          "panMedianMs": 0,
+          "sceneMs": 28.400000035762787,
+          "firstDrawMs": 363.60000002384186,
+          "texturePixels": 4194304,
+          "textureRgbaBytes": 16777216,
+          "renderer": {
+            "calls": 262,
+            "textures": 4,
+            "geometries": 8
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "graph200": {
+          "editorMountMs": 3.600000023841858,
+          "editorOptions": 0,
+          "nodes": 200,
+          "edges": 600,
+          "layoutMedianMs": 0.19999998807907104,
+          "mountMs": 6.5,
+          "selectionMedianMs": 1.5999999642372131,
+          "panMedianMs": 0,
+          "sceneMs": 11.300000011920929,
+          "firstDrawMs": 352.10000002384186,
+          "texturePixels": 13631488,
+          "textureRgbaBytes": 54525952,
+          "renderer": {
+            "calls": 1033,
+            "textures": 13,
+            "geometries": 15
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "imagePng": {
+          "ms": 2.300000011920929,
+          "maxTimerGapMs": 17.19999998807907
+        },
+        "imagePhoto": {
+          "ms": 52.10000002384186,
+          "maxTimerGapMs": 17.19999998807907
+        },
+        "imagePhotoRepeat": {
+          "ms": 0.10000002384185791,
+          "maxTimerGapMs": 17.100000023841858
+        },
+        "zipRead": {
+          "ms": 149.0999999642372,
+          "maxTimerGapMs": 17.100000023841858
+        },
+        "zipExport": {
+          "ms": 205.19999998807907,
+          "maxTimerGapMs": 17.100000023841858
+        },
+        "fixture": {
+          "pngBytes": 3152409,
+          "pngPixels": 1048576,
+          "photoBytes": 5774432,
+          "photoPixels": 16777216,
+          "zipBytes": 25221599,
+          "assets": 8
+        }
+      },
+      {
+        "graph50": {
+          "editorMountMs": 0.8999999761581421,
+          "editorOptions": 0,
+          "nodes": 50,
+          "edges": 150,
+          "layoutMedianMs": 0,
+          "mountMs": 1.5,
+          "selectionMedianMs": 0.40000003576278687,
+          "panMedianMs": 0,
+          "sceneMs": 6.199999988079071,
+          "firstDrawMs": 497.10000002384186,
+          "texturePixels": 4194304,
+          "textureRgbaBytes": 16777216,
+          "renderer": {
+            "calls": 262,
+            "textures": 4,
+            "geometries": 8
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "graph200": {
+          "editorMountMs": 2.600000023841858,
+          "editorOptions": 0,
+          "nodes": 200,
+          "edges": 600,
+          "layoutMedianMs": 0.19999998807907104,
+          "mountMs": 5.900000035762787,
+          "selectionMedianMs": 1.5,
+          "panMedianMs": 0,
+          "sceneMs": 9.600000023841858,
+          "firstDrawMs": 346.19999998807907,
+          "texturePixels": 13631488,
+          "textureRgbaBytes": 54525952,
+          "renderer": {
+            "calls": 1033,
+            "textures": 13,
+            "geometries": 15
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "imagePng": {
+          "ms": 1.699999988079071,
+          "maxTimerGapMs": 17
+        },
+        "imagePhoto": {
+          "ms": 49.19999998807907,
+          "maxTimerGapMs": 17.19999998807907
+        },
+        "imagePhotoRepeat": {
+          "ms": 0,
+          "maxTimerGapMs": 17.099999964237213
+        },
+        "zipRead": {
+          "ms": 137.30000001192093,
+          "maxTimerGapMs": 17.099999964237213
+        },
+        "zipExport": {
+          "ms": 202.5,
+          "maxTimerGapMs": 17.100000023841858
+        },
+        "fixture": {
+          "pngBytes": 3152409,
+          "pngPixels": 1048576,
+          "photoBytes": 5774432,
+          "photoPixels": 16777216,
+          "zipBytes": 25221599,
+          "assets": 8
+        }
+      },
+      {
+        "graph50": {
+          "editorMountMs": 0.8999999761581421,
+          "editorOptions": 0,
+          "nodes": 50,
+          "edges": 150,
+          "layoutMedianMs": 0,
+          "mountMs": 1.5999999642372131,
+          "selectionMedianMs": 0.40000003576278687,
+          "panMedianMs": 0,
+          "sceneMs": 2.600000023841858,
+          "firstDrawMs": 225,
+          "texturePixels": 4194304,
+          "textureRgbaBytes": 16777216,
+          "renderer": {
+            "calls": 262,
+            "textures": 4,
+            "geometries": 8
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "graph200": {
+          "editorMountMs": 2.300000011920929,
+          "editorOptions": 0,
+          "nodes": 200,
+          "edges": 600,
+          "layoutMedianMs": 0.19999998807907104,
+          "mountMs": 3.800000011920929,
+          "selectionMedianMs": 1.5,
+          "panMedianMs": 0,
+          "sceneMs": 8.200000047683716,
+          "firstDrawMs": 342.5,
+          "texturePixels": 13631488,
+          "textureRgbaBytes": 54525952,
+          "renderer": {
+            "calls": 1033,
+            "textures": 13,
+            "geometries": 15
+          },
+          "remaining": {
+            "textures": 0,
+            "geometries": 0
+          }
+        },
+        "imagePng": {
+          "ms": 1.800000011920929,
+          "maxTimerGapMs": 16.899999976158142
+        },
+        "imagePhoto": {
+          "ms": 65.30000001192093,
+          "maxTimerGapMs": 17.200000047683716
+        },
+        "imagePhotoRepeat": {
+          "ms": 0,
+          "maxTimerGapMs": 17.099999964237213
+        },
+        "zipRead": {
+          "ms": 151.0999999642372,
+          "maxTimerGapMs": 17.100000023841858
+        },
+        "zipExport": {
+          "ms": 219.60000002384186,
+          "maxTimerGapMs": 23.900000035762787
+        },
+        "fixture": {
+          "pngBytes": 3152409,
+          "pngPixels": 1048576,
+          "photoBytes": 5774432,
+          "photoPixels": 16777216,
+          "zipBytes": 25221599,
+          "assets": 8
+        }
+      }
+    ]
+  },
+  "notes": [
+    "Timer gaps use a 16ms interval; they are not complete long-task or frame-time measurements.",
+    "Texture bytes are unique canvas pixels × 4 for base-level RGBA; actual VRAM and driver/mipmap costs differ.",
+    "renderer.render() timing measures the CPU submission call including shader/allocation work, not completed GPU frame time.",
+    "Each iteration fetches fresh Blobs; repeated image inspection uses the same immutable Blob eight times.",
+    "ZIP includes eight assets using the same seeded 1024×1024 PNG data; full schema/CRC/image validation remains enabled.",
+    "Compressed ZIP sizes differ by a few bytes because snapshot IDs/timestamps are generated; PNG/JPEG content is identical.",
+    "Closed editor forms are included; mount timing uses flushSync and counts actual option DOM nodes."
+  ]
+}

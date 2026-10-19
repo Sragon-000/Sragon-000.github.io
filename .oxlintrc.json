@@ -1,0 +1,73 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "react", "import"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "react/refs": "off",
+    "react/static-components": "off",
+    "react/set-state-in-effect": "off",
+    "react/immutability": "off"
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "vendor",
+    "legacy",
+    "playwright-report",
+    "test-results"
+  ],
+  "overrides": [
+    {
+      "files": ["src/domain/**/*.ts"],
+      "rules": {
+        "eslint/no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": [
+                  "**/packages/**",
+                  "**/storage/**",
+                  "**/features/**",
+                  "**/content/**",
+                  "**/three/**",
+                  "**/app/**",
+                  "react",
+                  "react-dom",
+                  "three"
+                ],
+                "message": "도메인은 화면과 저장 계층에 의존하지 않습니다."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["src/packages/**/*.ts", "src/storage/**/*.ts"],
+      "rules": {
+        "eslint/no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": [
+                  "**/features/**",
+                  "**/content/**",
+                  "**/three/**",
+                  "**/app/**",
+                  "react",
+                  "react-dom",
+                  "three"
+                ],
+                "message": "저장·패키지 계층에서는 화면과 렌더러를 가져오지 않습니다."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

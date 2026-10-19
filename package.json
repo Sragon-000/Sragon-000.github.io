@@ -1,0 +1,51 @@
+{
+  "name": "io-portfolio-exhibition",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --configLoader runner",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test --test-reporter=spec tests/*.test.ts",
+    "build": "npm run content:check && npm run typecheck && vite build --configLoader runner && npm run dist:check && npm run performance:check",
+    "preview": "vite preview --host 127.0.0.1 --configLoader runner",
+    "content:check": "node --import tsx scripts/check-content.ts",
+    "content:import": "node --import tsx scripts/import-content.ts",
+    "dist:check": "node --import tsx scripts/check-dist.ts",
+    "test:e2e": "playwright test",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"scripts/**/*.{ts,tsx}\" \"tests/**/*.ts\" \"e2e/**/*.ts\" vite.config.ts playwright.config.ts package.json tsconfig.json .prettierrc.json .oxlintrc.json \".github/workflows/*.yml\" \"spec/schemas/*.json\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"scripts/**/*.{ts,tsx}\" \"tests/**/*.ts\" \"e2e/**/*.ts\" vite.config.ts playwright.config.ts package.json tsconfig.json .prettierrc.json .oxlintrc.json \".github/workflows/*.yml\" \"spec/schemas/*.json\"",
+    "lint": "oxlint --deny-warnings src scripts tests e2e vite.config.ts playwright.config.ts",
+    "check": "npm run format:check && npm run lint && npm run typecheck",
+    "performance:check": "node --import tsx scripts/check-performance.ts",
+    "performance:large": "node --import tsx scripts/performance/measure.ts"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "fflate": "0.8.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/node": "22.20.5",
+    "@types/pngjs": "6.0.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.180.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "fake-indexeddb": "6.2.5",
+    "oxlint": "1.87.0",
+    "pngjs": "7.0.0",
+    "prettier": "3.9.9",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.3"
+  }
+}
