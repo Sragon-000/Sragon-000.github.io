@@ -13,7 +13,11 @@
       "title": "나의 프로젝트 전시장",
       "description": "",
       "defaultView": "gallery",
-      "projectOrder": []
+      "projectOrder": [
+        "spaceshipthree",
+        "nanjangpan",
+        "eternal-steam"
+      ]
     },
     "theme": {
       "preset": "light",
